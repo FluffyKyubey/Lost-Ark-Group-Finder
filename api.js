@@ -3,7 +3,7 @@ fetch(
   )
     .then((res) => res.json())
     .then((data) => {
-      data.forEach((row) => {
-        console.log(data)
+      data.forEach((data) => {
+        console.log(data.Character)
       });
     });
