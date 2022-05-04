@@ -8,9 +8,9 @@ fetch(
       //data.forEach((row) => {
        // console.log(data)
      // });
-      var newData= data.json()
-      console.log(newData)
-     console.log(characters)
+     // var newData= data.json()
+      //console.log(newData)
+     //console.log(characters)
       
       var randomGroupFour = 4
       var randomGroupEight = 8
