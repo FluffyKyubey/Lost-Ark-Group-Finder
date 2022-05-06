@@ -14,9 +14,16 @@ fetch(
   });
 
 
+ document.querySelector("#four").addEventListener("click", function (event) {
+  var number = document.querySelector("#four").value;
 
-document.querySelector("#create").addEventListener("click", function (event) {
-  var number = document.querySelector(".number").value;
+  // chooseGroupSize(number)
+  createGroups(number);
+  // printGroups()
+});
+
+document.querySelector("#eight").addEventListener("click", function (event) {
+  var number = document.querySelector("#eight").value;
 
   // chooseGroupSize(number)
   createGroups(number);
