@@ -40,27 +40,28 @@ function chooseGroupSize(number) {
   return groupSize;
 }
 
+
+
 function createGroups(number) {
   finalGroup = [];
   var shuffle = toons.sort(() => Math.random() - 0.5);
+  var indexNum = 0;
+  var list = document.querySelector('.list')
 
   for (var i = 0; i < number; i++) {
     var characters = shuffle[i].Character;
     console.log(characters);
-    finalGroup.push(characters);
+    result = finalGroup.push(characters);
   }
   console.log(finalGroup)
-}
 
-
-function printGroups() {
-  var newGroup = chooseGroupSize();
-  var groupMembers = document.querySelector(".group");
-
-  if (newGroup) {
-    var createdGroup = createGroups();
-    groupMembers.value = createdGroup;
-  } else {
-    groupMembers.value = "";
+  for (var i = 0; i < finalGroup.length; i++){
+    myLi = document.createElement('li');
+    myLi.innerHTML = finalGroup[indexNum++]
+    list.appendChild(myLi)
   }
+
+  
 }
+
+
