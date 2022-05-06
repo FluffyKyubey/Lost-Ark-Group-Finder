@@ -46,7 +46,7 @@ function createGroups(number) {
   finalGroup = [];
   var shuffle = toons.sort(() => Math.random() - 0.5);
   var indexNum = 0;
-  var list = document.querySelector('.list')
+  var list = document.getElementById('result')
 
   for (var i = 0; i < number; i++) {
     var characters = shuffle[i].Character;
@@ -56,7 +56,8 @@ function createGroups(number) {
   console.log(finalGroup)
 
   for (var i = 0; i < finalGroup.length; i++){
-    myLi = document.createElement('li');
+    myLi = document.createElement('button');
+    myLi.setAttribute('class', 'btn btn-outline-success')
     myLi.innerHTML = finalGroup[indexNum++]
     list.appendChild(myLi)
   }
