@@ -1,0 +1,72 @@
+ nav {
+    background-color: black;
+}
+
+.nav-link {
+    color: goldenrod;
+}
+.nav-link:hover {
+    color: #fd2eb3
+}
+
+.btn {
+    color: #fd2eb3 ;
+    border-color: #fd2eb3 ;
+}
+
+.btn:hover {
+    background-color: #fd2eb3;
+}
+
+h1 {
+    font-family: 'Rubik Wet Paint', cursive;
+    color: goldenrod;
+    font-size: 100px;
+}
+body {
+    background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+}
+
+.aboutGame {
+    font-family: 'Rubik Wet Paint', cursive;
+    color: goldenrod;
+    font-size: 35px;
+}
+
+.wiki {
+    display: block;
+    text-align: center;
+    color: goldenrod;
+}
+.wiki:hover {
+    color: #fd2eb3
+}
+footer {
+    font-family: 'Rubik Wet Paint', cursive;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #fd2eb3
+}
+.dogy-img {
+    width: 25%;
+    height: 25%;
+    margin: 10px;
+    border-radius: 35px;
+}
+
+
+.dogy {
+    display: flex;
+    justify-content: center;
+}
+
+.dogy-img:hover {
+    /* transform: rotate(20deg); */
+    transform: scale(0.9);
+    transition: all ease-in-out 1s;
+    
+}
