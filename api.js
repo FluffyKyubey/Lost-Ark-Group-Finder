@@ -3,7 +3,6 @@ fetch(
   )
     .then((res) => res.json())
     .then((data) => {
-<<<<<<< HEAD
       var copy = [...data];
       console.log(copy)
       //data.forEach((row) => {
@@ -30,9 +29,7 @@ fetch(
 //}
 
 //sortGroups()
-=======
       data.forEach((row) => {
         console.log(data)
       });
-    });
->>>>>>> 8094e0bfcc64daffb55e28f21fccaaa248d4632b
+
