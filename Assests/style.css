@@ -65,7 +65,7 @@ footer {
 }
 
 .dogy-img:hover {
-    /* transform: rotate(20deg); */
+    
     transform: scale(0.9);
     transition: all ease-in-out 1s;
     
