@@ -72,7 +72,7 @@ fetch(
         t = A[2] || "text/plain";
 
     //build download link:
-    a.href = "data:" + strMimeType + "charset=utf-8," + escape(strData);
+    // a.href = "data:" + strMimeType + "charset=utf-8," + escape(strData);
 
 
     if (window.MSBlobBuilder) { // IE10

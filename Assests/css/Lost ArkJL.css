@@ -6,7 +6,7 @@
   
   .container {
     min-height: 100vh;
-    background-color: #140382;
+    /* background-color: #140382; */
     display: flex;
     justify-content: center;
     align-items: center;
